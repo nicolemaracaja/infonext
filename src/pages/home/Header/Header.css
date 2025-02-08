@@ -1,0 +1,45 @@
+/*HEADER PÁGINA 1*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #000;
+}
+
+header .logoInfonext {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .logoInfonext img {
+    width: 50px;
+    transition: all 0.3s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+     cursor: pointer;
+}
+
+.button-options button{
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #000;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    transition: background-color 0.3s ease, font-size 0.3s ease; 
+}
+
+button:hover{
+    font-size: 17px;
+}
